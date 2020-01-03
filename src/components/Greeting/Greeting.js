@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Rank = () => {
+const Greeting = () => {
   return(
     <div>
       <div className='white f1'>
@@ -13,4 +13,4 @@ const Rank = () => {
   )
 }
 
-export default Rank;
+export default Greeting;

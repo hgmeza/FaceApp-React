@@ -5,7 +5,7 @@ import Clarifai from 'clarifai';
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
-import Rank from './components/Rank/Rank';
+import Greeting from './components/Greeting/Greeting';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition'
 
 import './App.css';
@@ -71,7 +71,7 @@ class App extends Component {
         <Particles className='particles' params={particlesOptions} />
         <Navigation />
         <Logo />
-        <Rank />
+        <Greeting />
         <ImageLinkForm onInputChange={this.onInputChange} onButtonSubmit={this.onButtonSubmit}/>
         <FaceRecognition box={this.state.box} imgUrl = {this.state.imageURL}/>
       </div>
